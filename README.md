@@ -18,8 +18,6 @@ Our approach simplifies the generation of high-quality P. falciparum genomes and
 
 ## Workflow
 
-## Workflow
-
 The main analysis is organized as:
 
 ```text
@@ -102,8 +100,8 @@ For example:
 
 ```bash
 export DATA_ROOT=/path/to/project_data
-export REFERENCE_FASTA=/path/to/PlasmoDB-3D7.fasta
-export REFERENCE_GFF=/path/to/PlasmoDB-3D7.gff
+export REFERENCE_FASTA=/path/to/PlasmoDB63-3D7.fasta
+export REFERENCE_GFF=/path/to/PlasmoDB63-3D7.gff
 export ILRA_SH=ILRA.sh
 export ILRA_PATH=/path/to/ILRA/path_to_source
 export PILON_JAR=pilon.jar

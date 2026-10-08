@@ -1,0 +1,7 @@
+# isolate	orthologs	gff
+KK2504	annotation/KK2504/orthologs.tsv	annotation/KK2504/KK2504.gff3
+KK2202	annotation/KK2202/orthologs.tsv	annotation/KK2202/KK2202.gff3
+BG1701	annotation/BG1701/orthologs.tsv	annotation/BG1701/BG1701.gff3
+KK2403	annotation/KK2403/orthologs.tsv	annotation/KK2403/KK2403.gff3
+BG1905	annotation/BG1905/orthologs.tsv	annotation/BG1905/BG1905.gff3
+BG0801	annotation/BG0801/orthologs.tsv	annotation/BG0801/BG0801.gff3

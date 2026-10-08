@@ -233,3 +233,33 @@ The original Artemis/ACT manual inspection is still documented separately in
 automated pipeline.
 
 
+
+## Data Availability
+
+To adhere to code repository best practices, **no raw data, intermediate BAM files, or generated tables are hosted here.** 
+
+*   Raw reads, and assembly files associated with this study are deposited in ENA under accession PRJEB98187. 
+*   Reference genomes were obtained from [PlasmoDB](https://plasmodb.org/) 
+
+
+## Citation
+
+## Citation
+
+If you use the code, pipelines, or methodological approaches provided in this repository for your research, please cite our publication:
+
+**Díaz-Terenti, B., Diakite, M., Randford-Cartwright, L. C., Pradham, S., Otto, T. D., & Gómez-Díaz, E.** *Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates*. (2026).
+
+
+**BibTeX:**
+```bibtex
+@article{diazterenti_malian_pfalciparum,
+  title = {Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates},
+  author = {D{\'i}az-Terenti, B. and Diakite, M. and Randford-Cartwright, L. C. and Pradham, S. and Otto, T. D. and G{\'o}mez-D{\'i}az, E.},
+  year = {2026},
+   doi = {[PENDING]}
+}
+```
+
+
+

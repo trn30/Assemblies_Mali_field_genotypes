@@ -4,6 +4,6 @@ BG0801	Clones_ship1	Clones_ship1/RAW/demultiplex.bc2068--bc2068.bam.fastq.fastq	
 KK2504	clones_ship2	clones_ship2/RAW/demultiplex.bc2001--bc2001.bam.fastq.fastq	-	Raw barcode 2001
 KK2202	clones_ship2	clones_ship2/RAW/demultiplex.bc2002--bc2002.bam.fastq.fastq	-	Raw barcode 2002
 BG1701	clones_ship2	clones_ship2/RAW/demultiplex.bc2003--bc2003.bam.fastq.fastq	clones_ship2/illumina/BG1701_S1_merged	Raw barcode 2003
-KK2403	clones_ship2	clones_ship2/RAW/demultiplex.bc2004--bc2004.bam.fastq.fastq	clones_ship2/illumina/BG1701_S1_merged	Raw barcode 2004
+KK2403	clones_ship2	clones_ship2/RAW/demultiplex.bc2004--bc2004.bam.fastq.fastq	clones_ship2/illumina/KK2403_S1_merged	Raw barcode 2004
 KK2401	Clones_ship3	Clones_ship3/RAW/m84105_250404_143213_s2.KK02401_E2.28_28.fastq	-	As named in original FASTQ
 KK2502	Clones_ship3	Clones_ship3/RAW/m84105_250404_143213_s2.KK2502_E2.29_29.fastq	-	As named in original FASTQ

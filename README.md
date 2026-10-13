@@ -1,6 +1,6 @@
 # Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates
 
-Code for PacBio HiFi genome assembly, correction, annotation and quality assessment of eight clonal Plasmodium falciparum field isolates from Mali, including coverage experiments and downstream analyses of frameshifts and multigene-family motifs.
+Code for PacBio HiFi genome assembly, correction, annotation and quality assessment of eight clonal *Plasmodium falciparum* field isolates from Mali, including coverage experiments and downstream analyses of frameshifts and multigene-family motifs.
 
 ## About this repository
 
@@ -81,9 +81,6 @@ assemblies_Mali_isolates/
 ```
 
 ## Samples
-
-The repository uses the biological isolate names throughout the analysis:
-
 The repository uses the biological isolate names throughout the analysis.
 Original sequencing barcodes are retained only inside raw FASTQ filenames
 where needed to locate the input files.
@@ -107,12 +104,6 @@ export ILRA_PATH=/path/to/ILRA/path_to_source
 export PILON_JAR=pilon.jar
 ```
 
-Pilon is configured by default as:
-
-```bash
-export PILON_JAR="pilon.jar"
-```
-
 The exact raw FASTQ names and Illumina prefixes are kept in
 `config/samples.tsv`, while analysis-specific annotation inputs are listed in
 `config/frameshift_samples.tsv`.
@@ -120,45 +111,6 @@ The exact raw FASTQ names and Illumina prefixes are kept in
 ## How to run the analysis
 
 The main workflow is divided into computational stages. Before running it, review `config/config.sh` and `config/samples.tsv` and make sure the required software is available.
-
-```bash
-bash scripts/00_check_dependencies.sh
-bash scripts/01_prepare_reads.sh
-bash scripts/02_canu_main.sh
-bash scripts/03_ilra_main.sh
-bash scripts/04_pilon_main.sh
-```
-
-Alternatively:
-
-```bash
-bash scripts/run_main.sh
-```
-
-Additional analyses are run separately:
-
-```bash
-bash scripts/05_illumina_correction.sh
-bash scripts/06_coverage_experiment.sh
-bash scripts/07_3d7_control.sh
-```
-
-Frameshift analysis:
-
-```bash
-Rscript scripts/count_frameshifts.R \
-  --sample-table config/frameshift_samples.tsv \
-  --reference-gff annotation/reference/PlasmoDB-3D7.gff \
-  --output-dir results/frameshifts
-```
-
-Motif analysis for the final assemblies:
-
-```bash
-bash scripts/run_motif_counts.sh
-```
-
-## Main analysis
 
 Run:
 
@@ -231,7 +183,6 @@ annotations. The motif analysis uses the motif FASTA files in
 The original Artemis/ACT manual inspection is still documented separately in
 `docs/annotation_and_qc.md`, because it is interactive rather than a fully
 automated pipeline.
-
 
 
 ## Data Availability

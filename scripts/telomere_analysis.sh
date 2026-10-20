@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Run TIDK for 3D7 and each of the eight isolates, then run the R plotting and
+# Run TIDK for 3D7 and each of the samples, then run the R plotting and
 # counting script. This script is called at the end of run_main.sh.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

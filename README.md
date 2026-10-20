@@ -72,6 +72,7 @@ assemblies_Mali_isolates/
 │   ├── 05_illumina_correction.sh
 │   ├── 06_coverage_experiment.sh
 │   ├── 07_3d7_control.sh
+|   ├── telomere_analysis.sh
 │   ├── count_frameshifts.R
 │   ├── count_motifs.sh
 │   └── run_main.sh
@@ -174,6 +175,7 @@ The downstream analyses are implemented in:
 ```text
 scripts/count_frameshifts.R
 scripts/count_motifs.sh
+scripts/telomere_analysis.sh
 ```
 
 The frameshift analysis uses Companion one-to-one ortholog tables and GFF3

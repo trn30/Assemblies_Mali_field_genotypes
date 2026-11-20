@@ -168,6 +168,20 @@ Run:
 bash scripts/07_3d7_control.sh
 ```
 
+## Known resistance mutation identification
+
+This script identifies known resistance-associated mutations by comparing reference and assembly protein sequences. It also detects specific microsatellite motifs in the *PF3D7_1303500.1-p1* protein.
+
+Run:
+
+```bash
+Rscript scripts/resistant_mutation_identification.R \
+    -r reference_proteins.fasta \
+    -a assembly_proteins.fasta \
+    -m known_mutations.csv \
+    -o output_prefix
+```
+
 ## Annotation, frameshifts and motif analysis
 
 The downstream analyses are implemented in:
@@ -185,7 +199,6 @@ annotations. The motif analysis uses the motif FASTA files in
 The original Artemis/ACT manual inspection is still documented separately in
 `docs/annotation_and_qc.md`, because it is interactive rather than a fully
 automated pipeline.
-
 
 ## Data Availability
 

@@ -1,4 +1,4 @@
-isolate	shipment	raw_fastq	illumina_prefix	notes  platform
+#  isolate	shipment	raw_fastq	illumina_prefix	notes  platform
 BG1905	Clones_ship1	Clones_ship1/RAW/demultiplex.bc2067--bc2067.bam.fastq.fastq	-	Raw barcode 2067  hifi
 BG0801	Clones_ship1	Clones_ship1/RAW/demultiplex.bc2068--bc2068.bam.fastq.fastq	-	Raw barcode 2068  hifi
 KK2504	clones_ship2	clones_ship2/RAW/demultiplex.bc2001--bc2001.bam.fastq.fastq	-	Raw barcode 2001  hifi

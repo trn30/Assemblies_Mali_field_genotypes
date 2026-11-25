@@ -175,7 +175,7 @@ This script identifies known resistance-associated mutations by comparing refere
 Run:
 
 ```bash
-Rscript scripts/resistant_mutation_identification.R \
+Rscript scripts/08_resistant_mutation_identification.R \
     -r reference_proteins.fasta \
     -a assembly_proteins.fasta \
     -m known_mutations.csv \

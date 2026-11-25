@@ -37,7 +37,7 @@ while IFS=$'\t' read -r isolate shipment raw_fastq illumina_prefix notes; do
         -g "$REFERENCE_GFF" \
         -L pb \
         -K yes \
-        -M 200g \
+        -Mj 200g \
         -p yes \
         -l \
         > "${WORK_ROOT}/logs/${isolate}_ilra.log" 2>&1

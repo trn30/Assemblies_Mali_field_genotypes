@@ -68,10 +68,11 @@ assemblies_Mali_isolates/
 │   ├── 01_prepare_reads.sh
 │   ├── 02_canu_main.sh
 │   ├── 03_ilra_main.sh
-│   ├── 04_illumina_correction.sh
-│   ├── 05_coverage_experiment.sh
-│   ├── 06_3d7_control.sh
-│   ├── 07_resistant_mutation_identification.sh
+│   ├── 04_pilon_main.sh
+│   ├── 05_illumina_correction.sh
+│   ├── 06_coverage_experiment.sh
+│   ├── 07_3d7_control.sh
+│   ├── 08_resistant_mutation_identification.sh
 |   ├── telomere_analysis.sh
 │   ├── count_frameshifts.R
 │   ├── count_motifs.sh
@@ -120,7 +121,7 @@ bash scripts/00_check_dependencies.sh
 bash scripts/01_prepare_reads.sh
 bash scripts/02_canu_main.sh
 bash scripts/03_ilra_main.sh
-bash scripts/04_illumina_correction.sh
+bash scripts/04_pilon_main.sh
 ```
 
 Or:

@@ -9,12 +9,12 @@ This repository contains the analysis code associated with the manuscript **"Imp
 The workflow was developed for PacBio HiFi sequencing of eight field-derived clonal *Plasmodium falciparum* isolates from Mali. It includes de novo genome assembly using Canu, PacBio-only ILRA processing, optional Pilon polishing, Illumina-assisted correction, coverage experiments, and downstream analyses of genome structure, frameshifts, telomeric repeats and multigene-family motifs.
 
 ## Abstract
-
 Understanding genome plasticity in malaria parasites and the diversity of their repetitive gene families requires high-quality reference genomes derived from parasites recently isolated from patients. However, generating such genomes in Plasmodium falciparum remains challenging owing to the parasite's extreme AT content, extensive repetitive regions, and the frequent occurrence of multiclonal infections in endemic settings. As a result, most available reference genomes are derived from laboratory-adapted strains, that have experienced prolonged in vitro maintenance, and that incompletely represent natural parasite diversity.
 
 We developed and optimized a de novo assembly strategy based on PacBio HiFi long-read sequencing and applied it to eight recently-isolated and cloned P. falciparum parasites from Mali. HiFi sequencing enabled highly accurate genome reconstruction, yielding assemblies with a  mean of 18 contigs, 301 pseudogenes, and a frameshift rate of 0.04% following Liftoff annotation. Assemblies showed high structural integrity and near-complete chromosomes, including improved recovery of subtelomeric regions and multigene families, without requiring short-read correction. Despite overall conservation of chromosome organization, substantial variation was observed in chromosome-end architecture, subtelomeric structure, and telomeric repeat content among parasite genomes. 
 
 Our approach simplifies the generation of high-quality P. falciparum genomes and reduces sequencing requirements fourfold. The resulting assemblies enabled characterization of natural variation in telomere plasticity and multicopy gene family diversity in field isolates. These findings establish PacBio HiFi sequencing as an effective and scalable strategy for producing highly contiguous and accurate de novo assemblies of P. falciparum, supporting the development of geographically-diverse, field-relevant malaria parasite reference genomes.
+
 
 ## Workflow overview
 

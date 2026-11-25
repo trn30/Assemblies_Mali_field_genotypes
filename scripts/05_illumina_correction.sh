@@ -38,6 +38,7 @@ while IFS=$'\t' read -r isolate shipment raw_fastq illumina_prefix notes; do
         -K yes \
         -Mj 200g \
         -p yes \
+        -i 3
         > "${WORK_ROOT}/logs/${isolate}_ilra_illumina_x3.log" 2>&1
 
     echo "==> ${isolate}: ILRA + Illumina correction, five iterations"

@@ -55,7 +55,7 @@ while IFS=$'\t' read -r isolate shipment raw_fastq illumina_prefix notes; do
 
         java -Xmx"${PILON_MEMORY}" -jar "$PILON_JAR" \
             --genome "$ilra_fasta" \
-            --bam "$bam" \
+            --pacbio "$bam" \
             --output "$output_prefix" \
             --outdir "$out_dir" \
             --changes \

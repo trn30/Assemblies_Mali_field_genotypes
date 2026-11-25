@@ -16,8 +16,6 @@ bash "${SCRIPT_DIR}/02_canu_main.sh"
 bash "${SCRIPT_DIR}/03_ilra_main.sh"
 
 # 5. pilon polishing one iteration 
-if [[ "${RUN_ILLUMINA_CORRECTION:-0}" == "1" ]]; then
-    bash "${SCRIPT_DIR}/04_pilon_main.sh"
-fi
+bash "${SCRIPT_DIR}/04_pilon_main.sh"
 
 echo "Pipeline completed."

@@ -71,7 +71,7 @@ assemblies_Mali_isolates/
 │   ├── 04_illumina_correction.sh
 │   ├── 05_coverage_experiment.sh
 │   ├── 06_3d7_control.sh
-│   ├── 07_
+│   ├── 07_resistant_mutation_identification.sh
 |   ├── telomere_analysis.sh
 │   ├── count_frameshifts.R
 │   ├── count_motifs.sh

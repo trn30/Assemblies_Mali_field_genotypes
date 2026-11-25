@@ -192,26 +192,38 @@ Large sequencing files, BAM files, annotations and intermediate results should n
 
 ## Software requirements
 
-### Main assembly workflow
+## Dependency checking
 
-- Canu
-- PacBio `bam2fastq` / pbtk
-- FastQC
-- ILRA
-- BWA
-- samtools
-- seqtk
-- Java
-- Pilon
+The script `scripts/00_check_dependencies.sh` checks the software and input files required for each workflow.
 
-The main scripts use two Conda environments by default:
+Run the default check:
 
-```text
-assembly
-ILRA_env
+```bash
+bash scripts/00_check_dependencies.sh
 ```
 
-These names can be changed using `ASSEMBLY_ENV` and `ILRA_ENV`.
+Check a specific stage:
+
+```bash
+bash scripts/00_check_dependencies.sh --stage STAGE
+```
+
+Available stages:
+
+| Stage | Analysis |
+|---|---|
+| `main` | PacBio HiFi assembly |
+| `pilon` | Pilon polishing |
+| `illumina` | Illumina-assisted correction |
+| `coverage` | Coverage experiments |
+| `3d7` | 3D7 control |
+| `telomeres` | Telomere analysis |
+| `motifs` | Motif analysis |
+| `frameshifts` | Frameshift analysis |
+| `resistance` | Resistance mutations |
+| `all` | All dependencies |
+
+The script reports missing requirements and exits with an error if required dependencies or files are unavailable.
 
 ### Downstream analysis
 

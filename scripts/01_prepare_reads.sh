@@ -20,7 +20,7 @@ for shipment in Clones_ship1 clones_ship2 Clones_ship3; do
 
         if [[ ! -e "$output_prefix" && ! -e "${output_prefix}.fastq" ]]; then
             echo "==> BAM -> FASTQ: $(basename "$bam")"
-            bam2fastq -o "$output_prefix" -j "$THREADS" -u "$bam"
+           bam2fastq -o "$output_prefix" -u "$bam"
         else
             echo "==> FASTQ already present for $(basename "$bam")"
         fi

@@ -15,9 +15,9 @@ bash "${SCRIPT_DIR}/02_canu_main.sh"
 # 4. HiFi-only ILRA processing
 bash "${SCRIPT_DIR}/03_ilra_main.sh"
 
-# 5. Optional Illumina correction
+# 5. pilon polishing one iteration 
 if [[ "${RUN_ILLUMINA_CORRECTION:-0}" == "1" ]]; then
-    bash "${SCRIPT_DIR}/04_illumina_correction.sh"
+    bash "${SCRIPT_DIR}/04_pilon_main.sh"
 fi
 
 echo "Pipeline completed."

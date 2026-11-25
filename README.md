@@ -68,10 +68,10 @@ assemblies_Mali_isolates/
 │   ├── 01_prepare_reads.sh
 │   ├── 02_canu_main.sh
 │   ├── 03_ilra_main.sh
-│   ├── 04_pilon_main.sh
-│   ├── 05_illumina_correction.sh
-│   ├── 06_coverage_experiment.sh
-│   ├── 07_3d7_control.sh
+│   ├── 04_illumina_correction.sh
+│   ├── 05_coverage_experiment.sh
+│   ├── 06_3d7_control.sh
+│   ├── 07_
 |   ├── telomere_analysis.sh
 │   ├── count_frameshifts.R
 │   ├── count_motifs.sh
@@ -120,7 +120,7 @@ bash scripts/00_check_dependencies.sh
 bash scripts/01_prepare_reads.sh
 bash scripts/02_canu_main.sh
 bash scripts/03_ilra_main.sh
-bash scripts/04_pilon_main.sh
+bash scripts/04_illumina_correction.sh
 ```
 
 Or:
@@ -214,7 +214,7 @@ To adhere to code repository best practices, **no raw data, intermediate BAM fil
 
 If you use the code, pipelines, or methodological approaches provided in this repository for your research, please cite our publication:
 
-**Díaz-Terenti, B., Diakite, M., Randford-Cartwright, L. C., Pradham, S., Otto, T. D., & Gómez-Díaz, E.** *Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates*. (2026).
+**Díaz-Terenti, B., Diakite, M., Randford-Cartwright, L. C., Pradham, S.,M.C, Martos-Contreras, Otto, T. D., & Gómez-Díaz, E.** *Improved long-read sequencing technology reveals full genome architecture of Malian Plasmodium falciparum field isolates*. (2026).
 
 
 **BibTeX:**
